@@ -1,0 +1,12 @@
+{
+    "name": "Herramientas de Construcción",
+    "image": "mcr.microsoft.com/devcontainers/universal:latest",
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {},
+        "ghcr.io/devcontainers/features/java:1": {},
+        "ghcr.io/devcontainers/features/dotnet:1": {},
+        "ghcr.io/devcontainers/features/gradle:1": {},
+        "ghcr.io/devcontainers/features/maven:1": {}
+    },
+    "postCreateCommand": "apt update && apt install -y make ant gcc"
+}
