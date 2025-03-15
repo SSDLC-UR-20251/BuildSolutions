@@ -252,7 +252,7 @@ Para comenzar, necesitamos inicializar un nuevo proyecto Node.js utilizando npm.
 
 Para esto crearemos una nueva carpeta dedicada a npm
 ```bash
-mkdir nm
+mkdir npm
 ```
 
 Y ejecutamos los siguientes comandos para inicializar un nuevo proyecto npm:
